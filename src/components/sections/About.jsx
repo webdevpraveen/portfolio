@@ -36,8 +36,10 @@ export default function About() {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          I’m a full stack web developer passionate about building high-performance and scalable web applications using the MERN stack, Tailwind CSS, and exploring AI/ML technologies.
-        </motion.p>
+          I’m a BCA student and a passionate WordPress developer who loves turning ideas into functional and creative websites.
+  I enjoy designing modern, responsive, and user-friendly layouts using WordPress CMS. When I’m not coding, you can find me exploring new web technologies, contributing to open-source projects.
+         <br>Want to Learn These:</br>
+          </motion.p>
 
         {/* Skills with Icons */}
         <motion.div
@@ -69,10 +71,6 @@ export default function About() {
           <div className="flex flex-col items-center">
             <SiTailwindcss className="text-4xl text-cyan-400 mb-2" />
             <p>Tailwind CSS</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <FaGithub className="text-4xl text-white mb-2" />
-            <p>GitHub</p>
           </div>
           <div className="flex flex-col items-center">
             <SiPython className="text-4xl text-yellow-300 mb-2" />

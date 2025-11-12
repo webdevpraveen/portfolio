@@ -30,7 +30,7 @@ function Navbar({ menuOpen, setMenuOpen }) {
             <Link to="/about" className='text-gray-300 hover:text-white transition-colors'>About</Link>
             <Link to="/projects" className='text-gray-300 hover:text-white transition-colors'>Projects</Link>
             <Link to="/certificates" className='text-gray-300 hover:text-white transition-colors'>Certificates</Link>
-            <Link to="/blog" className='text-gray-300 hover:text-white transition-colors'>Blog</Link>
+            {/*<Link to="/blog" className='text-gray-300 hover:text-white transition-colors'>Blog</Link>*/}
             <Link to="/contact" className='text-gray-300 hover:text-white transition-colors'>Contact</Link>
           </div>
         </div>

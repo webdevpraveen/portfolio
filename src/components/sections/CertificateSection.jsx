@@ -10,7 +10,7 @@ const certificates = [
   {
     id: 1,
     title: "#Certificate 1",
-    img: "certificates/EthicalHackingCertificate.jpg",
+    img: "/certificates/EthicalHackingCertificate.jpg",
     alt: "#Certificate 1",
     description:
       "Certificate of completion for the Online course for Ethical Hacking at IT Sonix Solutions.",
@@ -18,7 +18,7 @@ const certificates = [
   {
     id: 2,
     title: "#Certificate 2",
-    img: "certificates/SkillupCertificate1.png",
+    img: "/certificates/SkillupCertificate1.png",
     alt: "#Certificate 2",
     description:
       "Certificate of completion for the online course to Build Applications with GitHub Copilot Agent Mode at SkillUp by Simplilearn.",
@@ -26,7 +26,7 @@ const certificates = [
   {
     id: 3,
     title: "#Certificate 3",
-    img: "certificates/EthicalHackingCertificate.jpg",
+    img: "/certificates/EthicalHackingCertificate.jpg",
     alt: "#Certificate 3",
     description:
       "Certificate of completion for the Online course for Ethical Hacking at IT Sonix Solutions.",
@@ -34,7 +34,7 @@ const certificates = [
   {
     id: 4,
     title: "#Certificate 4",
-    img: "certificates/SkillupCertificate1.png",
+    img: "/certificates/SkillupCertificate1.png",
     alt: "#Certificate 4",
     description:
       "Certificate of completion for the online course to Build Applications with GitHub Copilot Agent Mode at SkillUp by Simplilearn.",
@@ -42,7 +42,7 @@ const certificates = [
   {
   id: 5,
     title: "#Certificate 5",
-    img: "certificates/EthicalHackingCertificate.jpg",
+    img: "/certificates/EthicalHackingCertificate.jpg",
     alt: "#Certificate 5",
     description:
       "Certificate of completion for the Online course for Ethical Hacking at IT Sonix Solutions.",
@@ -50,7 +50,7 @@ const certificates = [
   {
     id: 6,
     title: "#Certificate 6",
-    img: "certificates/SkillupCertificate1.png",
+    img: "/certificates/SkillupCertificate1.png",
     alt: "#Certificate 6",
     description:
       "Certificate of completion for the online course to Build Applications with GitHub Copilot Agent Mode at SkillUp by Simplilearn.",
