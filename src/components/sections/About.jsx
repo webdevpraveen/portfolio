@@ -11,7 +11,7 @@ export default function About() {
 
         {/* Profile Photo */}
         <motion.img
-          src="public/certificates/about1.JPG" // <-- Replace this with your actual image path
+          src="/certificates/about1.JPG" // <-- Replace this with your actual image path
           alt="Praveen Kumar Singh"
           className="w-36 h-36 rounded-full object-cover border-4 border-blue-500 shadow-xl mb-6"
           initial={{ opacity: 0, scale: 0.8 }}
