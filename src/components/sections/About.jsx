@@ -36,11 +36,25 @@ export default function About() {
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          I’m a BCA student and a passionate WordPress developer who loves turning ideas into functional and creative websites.
-  I enjoy designing modern, responsive, and user-friendly layouts using WordPress CMS. When I’m not coding, you can find me exploring new web technologies, contributing to open-source projects.
-         <br>Want to Learn These:</br>
-          </motion.p>
+          I’m a BCA student with a strong interest in web development and digital creativity. I enjoy building websites that not only look good but actually solve real problems. WordPress is my favorite tool - it allows me to turn simple ideas into full working projects without limits.
 
+<br />
+
+I’ve spent time understanding how design, structure, and performance come together to make a great user experience. Every new project I take helps me learn something new — whether it’s improving site speed, designing clean layouts, or experimenting with plugins.
+
+<br />
+
+Right now, I’m focused on becoming a complete web developer — someone who understands both the creative and technical sides of building on the web. I love what I do, and I’m excited to keep growing with every line of code I write.
+          </motion.p>
+{/* Heading */}
+        <motion.h9
+          className="text-3xl md:text-4xl font-bold mb-4"
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          Want to <span className="text-blue-500">Learn</span> :
+        </motion.h9>
         {/* Skills with Icons */}
         <motion.div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-items-center"
