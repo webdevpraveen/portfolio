@@ -4,6 +4,12 @@ A personal developer portfolio built with **React + Vite + Tailwind CSS**.
 This repository is a customized version of my teacher’s template and contains the final portfolio files for deployment and future updates.
 
 ---
+## 📸 Preview
+<img width="525" height="378" alt="image" src="https://github.com/user-attachments/assets/a77a11bd-1f0f-48e6-9a57-c3ed4db770a6" />
+
+
+https://praveenksingh.vercel.app
+---
 
 ## 🚀 Project Overview
 
