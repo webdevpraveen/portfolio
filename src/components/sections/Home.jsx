@@ -137,7 +137,7 @@ export default function Home() {
                         <Link to="https://github.com/webdevpraveen" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                             <FaGithub />
                         </Link>
-                        <Link to="https://www.linkedin.com/in/-praveen-singh-/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
+                        <Link to="https://www.linkedin.com/in/praveensingh-/" target="_blank" rel="noopener noreferrer" className="hover:text-white">
                             <FaLinkedin />
                         </Link>
                         <Link to="mailto:pr4veensingh@proton.me" className="hover:text-white">
