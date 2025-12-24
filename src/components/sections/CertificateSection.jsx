@@ -10,10 +10,10 @@ const certificates = [
   {
     id: 1,
     title: "#Certificate 1",
-    img: "/certificates/EthicalHackingCertificate.jpg",
+    img: "/certificates/SIH-2025-SRMU.png",
     alt: "#Certificate 1",
     description:
-      "Certificate of completion for the Online course for Ethical Hacking at IT Sonix Solutions.",
+      "Certificate of Qualifiying & Participation for the Smart India Hackathon 2025 at SRM University.",
   },
   {
     id: 2,
@@ -34,18 +34,18 @@ const certificates = [
   {
     id: 4,
     title: "#Certificate 4",
-    img: "/certificates/SkillupCertificate1.png",
+    img: "/certificates/EthicalHackingCertificate.jpg",
     alt: "#Certificate 4",
     description:
-      "Certificate of completion for the online course to Build Applications with GitHub Copilot Agent Mode at SkillUp by Simplilearn.",
+      "Certificate of completion for the Online course for Ethical Hacking at IT Sonix Solutions.",
   },
   {
   id: 5,
     title: "#Certificate 5",
-    img: "/certificates/EthicalHackingCertificate.jpg",
+    img: "/certificates/SIH-2025-SRMU.png",
     alt: "#Certificate 5",
     description:
-      "Certificate of completion for the Online course for Ethical Hacking at IT Sonix Solutions.",
+      "Certificate of Qualifiying & Participation for the Smart India Hackathon 2025 at SRM University.",
   },
   {
     id: 6,
