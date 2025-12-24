@@ -15,7 +15,7 @@ const projects = [
     title: 'Readme File',
     description: 'A Simple README File',
     tech: ['HTML', 'HTML'],
-    github: 'https://github.com/PremKumarY/Construction.git',
+    github: 'https://github.com/webdevpraveen/webdevpraveen/',
   },
   {
     title: 'My Portfolio',
@@ -28,6 +28,18 @@ const projects = [
     description: 'A portfolio Website for Local Businesses of Cyber Cafe',
     tech: ['HTML', 'CSS','Blogspot'],
     github: 'https://drishtionlinegkp.blogspot.com/',
+  },
+  {
+    title: 'WDP Meet',
+    description: 'WDP Meet is an Omegle-like anonymous video chat platform that allows users to instantly connect with random strangers via real-time video and audio - without login, without accounts, and without storing any data',
+    tech: ['JavaScipt', 'Typescripts', 'HTML', 'CSS'],
+    github: 'https://github.com/webdevpraveen/wdp-meet/',
+  },
+  {
+    title: 'WDP Chat',
+    description: 'A fast, real-time chat application built using Html, Js, Node.js and Socket.io, paired with a clean and lightweight frontend.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Socket.io'],
+    github: 'https://github.com/webdevpraveen/wdp-chat/',
   },
 ];
 
