@@ -1,3 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://www.premkyadav.xyz/sitemap.xml
+
+Sitemap: https://praveenksingh.vercel.app/sitemap.xml
