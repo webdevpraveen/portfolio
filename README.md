@@ -9,6 +9,9 @@ This repository is a customized version of my teacher’s template and contains 
 
 
 https://praveenksingh.vercel.app
+
+https://praveenksingh.pages.dev
+
 ---
 
 ## 🚀 Project Overview
