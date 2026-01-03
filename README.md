@@ -7,6 +7,8 @@ This repository is a customized version of my teacher’s template and contains 
 ## 📸 Preview
 <img width="525" height="378" alt="image" src="https://github.com/user-attachments/assets/a77a11bd-1f0f-48e6-9a57-c3ed4db770a6" />
 
+---
+https://webdevpraveen.github.io
 
 https://praveenksingh.vercel.app
 
