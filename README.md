@@ -1,4 +1,4 @@
-# Praveen Kumar Singh — Personal Portfolio
+# Praveen Kumar Singh - Personal Portfolio
 
 A personal developer portfolio built with **React + Vite + Tailwind CSS**.  
 This repository is a customized version of my teacher’s template and contains the final portfolio files for deployment and future updates.
