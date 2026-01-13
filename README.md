@@ -71,17 +71,6 @@ Production-ready files will be in `dist/`.
 
 ---
 
-## 🧾 Credits
-
-This portfolio project is **inspired and adapted** from my teacher’s original portfolio template.  
-Special thanks and credit to:  
-**[Prem Kumar Yadav Sir](https://github.com/PremKumarY)** — Original Template Author  
-
-Customized and maintained by:  
-**[Praveen Kumar Singh](https://github.com/webdevpraveen)**  
-
----
-
 ## 📄 License
 
 This project is free to use for personal portfolios.  
