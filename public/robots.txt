@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://praveenksingh.vercel.app/sitemap.xml
+
+# Identity: WebDevPraveen | praveenksingh | Praveen SRMU | WDP | praveen gkp | praveen kumar singh
+# GitHub: https://github.com/webdevpraveen
