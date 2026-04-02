@@ -91,10 +91,10 @@ export default function Home() {
                     >
                         <Typewriter
                             words={[
-                                'A Bachelor Student of Computer Applications',
-                                'A Crazy Nerdy Kid',
-                                'Open Source Contributor',
-                                'Tech Enthusiast',
+                                'WebDevPraveen — BCA Student at SRMU',
+                                'Open Source Contributor & GSoC 2026 Aspirant',
+                                'Full-Stack Developer (React · Firebase · Flutter)',
+                                'A Crazy Nerdy Kid from Lucknow',
                             ]}
                             loop={0}
                             cursor
