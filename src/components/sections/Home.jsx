@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 import { loadFull } from 'tsparticles';
 import Particles from 'react-tsparticles';
 import About from './About';
-import Projects from './Projects';
+import HomeProjects from './HomeProjects';
 import Contact from './Contact';
 import CertificateSection from './CertificateSection';
 
@@ -148,7 +148,7 @@ export default function Home() {
             </section>
 
             <About />
-            <Projects />
+            <HomeProjects />
             <CertificateSection />
             <Contact />
         </>

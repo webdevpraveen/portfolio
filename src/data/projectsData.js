@@ -1,0 +1,103 @@
+// Centralized projects data - used by both HomeProjects and Projects page
+const projects = [
+  {
+    title: 'Repo Roast',
+    description: 'Brutally honest AI-powered GitHub repository roasting with a custom Hellfire UI, real-time feedback, and stat dashboards.',
+    tech: ['Next.js 15', 'Vanilla CSS', 'Vercel'],
+    github: 'https://github.com/webdevpraveen/repo-roast-web/',
+    live: 'https://repo-roast-wdp.vercel.app',
+  },
+  {
+    title: 'TimerVault',
+    description: 'The Ultimate Dead Man\'s Switch. A secure, automated system designed to protect and release sensitive information using AES-256 encryption.',
+    tech: ['Next.js 14', 'Tailwind CSS', 'Node.js', 'Express', 'Supabase'],
+    github: 'https://github.com/webdevpraveen/TimerVault/',
+    live: null,
+  },
+  {
+    title: 'Ping2Bro',
+    description: 'A VS Code Extension to code with your friends. See who\'s active and chat directly inside VS Code with real-time presence.',
+    tech: ['TypeScript', 'VS Code API'],
+    github: 'https://github.com/webdevpraveen/ping2bro/',
+    live: null,
+  },
+  {
+    title: 'MindNest',
+    description: 'A student wellness community platform providing a safe, anonymous, and community-driven environment to share struggles with daily mood check-ins.',
+    tech: ['HTML', 'CSS', 'JavaScript'],
+    github: 'https://github.com/webdevpraveen/mindnest/',
+    live: null,
+  },
+  {
+    title: 'Mangifera Shield',
+    description: 'An Offline-First, Voice-Enabled AgriTech PWA for mango disease detection using Edge AI (ResNet50). Built for Viveka 5.0 Hackathon.',
+    tech: ['Python', 'FastAPI', 'TensorFlow.js', 'JavaScript', 'HTML', 'CSS'],
+    github: 'https://github.com/webdevpraveen/Mangifera-Shield/',
+    live: null,
+  },
+  {
+    title: 'WDP Recipe Generator',
+    description: 'An AI-powered recipe generator that creates simple, Indian home-style recipes based on the ingredients you already have.',
+    tech: ['React', 'TypeScript', 'Node.js', 'Express', 'Tailwind CSS'],
+    github: 'https://github.com/webdevpraveen/wdp-recipe/',
+    live: 'https://wdprecipe.vercel.app',
+  },
+  {
+    title: 'Viveka 5.0 Website',
+    description: 'The official website for Viveka 5.0, a techno-cultural fest at SRMU. Features cyberpunk aesthetics, 3D animations, and parallax effects.',
+    tech: ['Next.js 14', 'TypeScript', 'Tailwind CSS', 'Framer Motion'],
+    github: 'https://github.com/webdevpraveen/viveka-5.0-website',
+    live: 'https://viveka-5-0-website.vercel.app',
+  },
+  {
+    title: 'OffLocSetu',
+    description: 'A conceptual offline location system that estimates approximate location using cellular network signals — without internet or GPS.',
+    tech: ['System Design', 'Android', 'SMS Gateway', 'Documentation'],
+    github: 'https://github.com/webdevpraveen/OffLocSetu/',
+    live: 'https://webdevpraveen.github.io/OffLocSetu/FAQ.html',
+  },
+  {
+    title: 'SecretNote',
+    description: 'A secure, client-side web app to encrypt and decrypt text messages using AES-GCM (256-bit) with a shared secret key. Zero backend.',
+    tech: ['HTML5', 'CSS3', 'JavaScript', 'Web Crypto API'],
+    github: 'https://github.com/webdevpraveen/SecretNote/',
+    live: 'https://wdpsecretnote.vercel.app',
+  },
+  {
+    title: 'Alumni Connect SIH 2025',
+    description: 'Alumni Management System - A centralized platform for connecting alumni and managing college networks.',
+    tech: ['React', 'TypeScript', 'HTML', 'CSS', 'Firebase'],
+    github: 'https://github.com/webdevpraveen/alumniconnectsih25',
+    live: null,
+  },
+  {
+    title: 'WDP Meet',
+    description: 'An Omegle-like anonymous video chat platform for instant connections via real-time video and audio — no login, no accounts, no data stored.',
+    tech: ['JavaScript', 'TypeScript', 'HTML', 'CSS'],
+    github: 'https://github.com/webdevpraveen/wdp-meet/',
+    live: null,
+  },
+  {
+    title: 'WDP Chat',
+    description: 'A fast, real-time chat application built with Node.js and Socket.io, paired with a clean and lightweight frontend.',
+    tech: ['HTML', 'CSS', 'JavaScript', 'Node.js', 'Socket.io'],
+    github: 'https://github.com/webdevpraveen/wdp-chat/',
+    live: null,
+  },
+  {
+    title: 'My Portfolio',
+    description: 'A personal portfolio showcasing projects, skills, and experience — built with Python and Django.',
+    tech: ['Python', 'Django', 'HTML', 'CSS', 'JavaScript', 'Bootstrap'],
+    github: 'https://github.com/webdevpraveen/portfolio',
+    live: null,
+  },
+  {
+    title: 'Websites for Local Businesses',
+    description: 'A portfolio website built for local businesses — Cyber Cafe in Gorakhpur.',
+    tech: ['HTML', 'CSS', 'Blogspot'],
+    github: 'https://drishtionlinegkp.blogspot.com/',
+    live: 'https://drishtionlinegkp.blogspot.com/',
+  },
+];
+
+export default projects;
