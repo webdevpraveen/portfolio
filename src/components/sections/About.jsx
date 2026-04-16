@@ -9,7 +9,6 @@ export default function About() {
     <section id="About" className="py-20 bg-black text-white">
       <div className="max-w-5xl w-full mx-auto px-4 flex flex-col items-center text-center">
 
-        {/* Profile Photo */}
         <motion.img
           src="/certificates/about1.JPG"
           alt="Praveen Kumar Singh – WebDevPraveen | Praveen SRMU"
@@ -19,7 +18,6 @@ export default function About() {
           transition={{ duration: 0.6 }}
         />
 
-        {/* Heading */}
         <motion.h2
           className="text-3xl md:text-4xl font-bold mb-4"
           initial={{ opacity: 0, y: 20 }}
@@ -29,56 +27,25 @@ export default function About() {
           About <span className="text-blue-500">Me</span>
         </motion.h2>
 
-        {/* Intro Text — SEO-rich, natural, keyword-dense */}
-        <motion.div
-          className="text-gray-300 max-w-3xl mx-auto text-lg mb-10 space-y-4 text-left"
+        {/* Visible bio — clean & professional */}
+        <motion.p
+          className="text-gray-300 max-w-2xl mx-auto text-lg mb-10 leading-relaxed"
           initial={{ opacity: 0 }}
           whileInView={{ opacity: 1 }}
           transition={{ delay: 0.3, duration: 0.6 }}
         >
-          <p>
-            Hey, I'm <strong className="text-white">Praveen Kumar Singh</strong> — online known as{' '}
-            <strong className="text-blue-400">WebDevPraveen</strong> (GitHub:{' '}
-            <a
-              href="https://github.com/webdevpraveen"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-blue-400 underline"
-            >
-              @webdevpraveen
-            </a>
-            ). I'm a BCA student at{' '}
-            <strong className="text-white">Shri Ramswaroop Memorial University (SRMU)</strong>,
-            Lucknow — you might also know me as <strong className="text-blue-400">Praveen SRMU</strong>{' '}
-            in developer circles.
-          </p>
+          I'm a BCA student at <strong className="text-white">Shri Ramswaroop Memorial University (SRMU)</strong>, Lucknow,
+          and a full-stack developer focused on building real-world web and mobile applications.
+          I contribute to open source and love shipping products that actually matter.
+        </motion.p>
 
-          <p>
-            I build full-stack web apps and mobile apps using{' '}
-            <strong className="text-white">React, TypeScript, Node.js, Firebase, and Flutter</strong>.
-            I'm an open-source contributor — I've contributed to{' '}
-            <strong className="text-white">Facebook's Docusaurus</strong>, the{' '}
-            <strong className="text-white">Linux Kernel</strong> (documentation patch on lore.kernel.org),
-            and <strong className="text-white">NVIDIA NeMo</strong>. I'm also a{' '}
-            <strong className="text-white">GSoC 2026 aspirant</strong>, targeting the C2SI CodeLabz project.
-          </p>
+        {/* Hidden SEO — Google reads, user can't see */}
+        <span style={{ position: 'absolute', width: '1px', height: '1px', overflow: 'hidden', opacity: 0, pointerEvents: 'none' }}>
+          Praveen Kumar Singh known as WebDevPraveen and praveenksingh, developer at SRMU Lucknow (Praveen SRMU).
+          Open-source contributor Linux Kernel, Facebook Docusaurus, NVIDIA NeMo. GSoC 2026 aspirant.
+          Built Ping2Bro, gitpersonality.com, LedgerAttend. SIH 2025 participant at SRMU.
+        </span>
 
-          <p>
-            On the product side, I've built <strong className="text-white">Ping2Bro</strong> (a VS Code
-            extension for real-time developer presence), <strong className="text-white">gitpersonality.com</strong>{' '}
-            (GitHub-driven personality analyzer using Claude API), and{' '}
-            <strong className="text-white">LedgerAttend</strong> (GPS-based attendance app with Flutter).
-            I also participated in{' '}
-            <strong className="text-white">Smart India Hackathon (SIH 2025) at SRMU</strong>.
-          </p>
-
-          <p>
-            I move fast from idea to deployment — using AI-assisted development for execution while
-            focusing on architecture, open-source impact, and building things that actually matter.
-          </p>
-        </motion.div>
-
-        {/* Skills heading */}
         <motion.h2
           className="text-3xl md:text-4xl font-bold mb-6"
           initial={{ opacity: 0, y: 20 }}
@@ -88,7 +55,6 @@ export default function About() {
           Tech <span className="text-blue-500">Stack</span>
         </motion.h2>
 
-        {/* Skills with Icons */}
         <motion.div
           className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-items-center"
           initial={{ opacity: 0 }}
@@ -96,52 +62,40 @@ export default function About() {
           transition={{ delay: 0.5, duration: 0.6 }}
         >
           <div className="flex flex-col items-center">
-            <FaReact className="text-4xl text-blue-400 mb-2" />
-            <p>React</p>
+            <FaReact className="text-4xl text-blue-400 mb-2" /><p>React</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiTypescript className="text-4xl text-blue-500 mb-2" />
-            <p>TypeScript</p>
+            <SiTypescript className="text-4xl text-blue-500 mb-2" /><p>TypeScript</p>
           </div>
           <div className="flex flex-col items-center">
-            <FaNodeJs className="text-4xl text-green-500 mb-2" />
-            <p>Node.js</p>
+            <FaNodeJs className="text-4xl text-green-500 mb-2" /><p>Node.js</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiFirebase className="text-4xl text-yellow-400 mb-2" />
-            <p>Firebase</p>
+            <SiFirebase className="text-4xl text-yellow-400 mb-2" /><p>Firebase</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiFlutter className="text-4xl text-blue-300 mb-2" />
-            <p>Flutter</p>
+            <SiFlutter className="text-4xl text-blue-300 mb-2" /><p>Flutter</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiNextdotjs className="text-4xl text-white mb-2" />
-            <p>Next.js</p>
+            <SiNextdotjs className="text-4xl text-white mb-2" /><p>Next.js</p>
           </div>
           <div className="flex flex-col items-center">
-            <FaJsSquare className="text-4xl text-yellow-400 mb-2" />
-            <p>JavaScript</p>
+            <FaJsSquare className="text-4xl text-yellow-400 mb-2" /><p>JavaScript</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiTailwindcss className="text-4xl text-cyan-400 mb-2" />
-            <p>Tailwind CSS</p>
+            <SiTailwindcss className="text-4xl text-cyan-400 mb-2" /><p>Tailwind CSS</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiMongodb className="text-4xl text-green-400 mb-2" />
-            <p>MongoDB</p>
+            <SiMongodb className="text-4xl text-green-400 mb-2" /><p>MongoDB</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiExpress className="text-4xl text-gray-300 mb-2" />
-            <p>Express</p>
+            <SiExpress className="text-4xl text-gray-300 mb-2" /><p>Express</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiPython className="text-4xl text-yellow-300 mb-2" />
-            <p>Python</p>
+            <SiPython className="text-4xl text-yellow-300 mb-2" /><p>Python</p>
           </div>
           <div className="flex flex-col items-center">
-            <FaGithub className="text-4xl text-white mb-2" />
-            <p>Open Source</p>
+            <FaGithub className="text-4xl text-white mb-2" /><p>Open Source</p>
           </div>
         </motion.div>
 
