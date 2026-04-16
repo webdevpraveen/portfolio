@@ -2,27 +2,6 @@ import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
 
-const blogPosts = [
-  {
-    title: "Debate Assistant AI",
-    date: "June 15, 2025",
-    summary: "Learn how to set up your first MERN stack project with step-by-step instructions, best practices, and code samples.",
-    link: "#"
-  },
-  {
-    title: "AI Projects You Can Build as a Student",
-    date: "May 20, 2025",
-    summary: "Explore beginner to intermediate level AI project ideas that are perfect for college students looking to build their portfolio.",
-    link: "#"
-  },
-  {
-    title: "How I Built My Portfolio Website",
-    date: "April 10, 2025",
-    summary: "A breakdown of the tools, technologies, and design process I followed to build my own personal website using React and Tailwind CSS.",
-    link: "#"
-  }
-];
-
 export default function Blog() {
   return (
     <section id="Blog" className="w-full bg-gray-900 text-white py-16 px-4">
