@@ -21,7 +21,7 @@ export default function Layout() {
                     <MobileMenu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
 
                     {/* Main content */}
-                    <div className="relative z-10">
+                    <div className="w-full">
                         <Outlet />
                     </div>
 

@@ -153,13 +153,13 @@ export default function CertificateSection() {
         <AnimatePresence>
           {selectedIndex !== null && (
             <motion.div
-              className="fixed inset-0 bg-black bg-opacity-90 flex items-center justify-center z-50 p-6"
+              className="fixed inset-0 bg-black/95 flex items-center justify-center z-[999] p-2 sm:p-6"
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
             >
               <motion.div
-                className="relative w-full max-w-5xl bg-white rounded-2xl shadow-2xl p-6 flex flex-col items-center"
+                className="relative w-full max-w-5xl max-h-[95vh] overflow-y-auto overflow-x-hidden bg-white text-black rounded-2xl shadow-2xl p-4 sm:p-6 flex flex-col items-center"
                 initial={{ scale: 0.9 }}
                 animate={{ scale: 1 }}
                 exit={{ scale: 0.9 }}
@@ -167,31 +167,31 @@ export default function CertificateSection() {
               >
                 {/* Close Button */}
                 <button
-                  className="absolute top-4 right-4 text-white bg-red-600 rounded-full p-2 hover:bg-red-700 transition z-50"
+                  className="absolute top-2 right-2 md:top-4 md:right-4 text-white bg-red-600 rounded-full p-2 hover:bg-red-700 transition z-50 shadow-lg"
                   onClick={closeModal}
                 >
-                  <X size={22} />
+                  <X size={20} />
                 </button>
 
                 {/* Navigation */}
                 <button
-                  className="absolute left-4 top-1/2 -translate-y-1/2 text-white bg-gray-800 rounded-full p-2 hover:bg-gray-700 transition z-50"
+                  className="absolute left-2 md:left-4 top-[40%] text-white bg-gray-800 rounded-full p-2 hover:bg-gray-700 transition z-50 shadow-lg flex items-center justify-center opacity-80 hover:opacity-100"
                   onClick={prevCertificate}
                 >
-                  <ChevronLeft size={22} />
+                  <ChevronLeft size={24} />
                 </button>
                 <button
-                  className="absolute right-4 top-1/2 -translate-y-1/2 text-white bg-gray-800 rounded-full p-2 hover:bg-gray-700 transition z-50"
+                  className="absolute right-2 md:right-4 top-[40%] text-white bg-gray-800 rounded-full p-2 hover:bg-gray-700 transition z-50 shadow-lg flex items-center justify-center opacity-80 hover:opacity-100"
                   onClick={nextCertificate}
                 >
-                  <ChevronRight size={22} />
+                  <ChevronRight size={24} />
                 </button>
 
                 {/* Certificate Image */}
                 {certificates[selectedIndex].img.endsWith(".pdf") ? (
                   <iframe
                     src={certificates[selectedIndex].img}
-                    className="w-full h-[75vh] rounded-xl"
+                    className="w-full h-[50vh] md:h-[65vh] rounded-xl mt-8 md:mt-2"
                     style={{ border: "none" }}
                     title={certificates[selectedIndex].title}
                   />
@@ -199,7 +199,7 @@ export default function CertificateSection() {
                   <img
                     src={certificates[selectedIndex].img}
                     alt={certificates[selectedIndex].title}
-                    className="w-full h-[75vh] object-contain rounded-xl"
+                    className="w-full max-h-[50vh] md:max-h-[65vh] object-contain rounded-xl mt-8 md:mt-2"
                   />
                 )}
 
