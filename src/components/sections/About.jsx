@@ -1,8 +1,8 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import { FaReact, FaNodeJs, FaGithub, FaJsSquare } from 'react-icons/fa';
-import { SiMongodb, SiExpress, SiTailwindcss, SiPython, SiFirebase, SiTypescript, SiFlutter, SiNextdotjs } from 'react-icons/si';
+import { FaReact, FaNodeJs, FaGithub, FaJsSquare, FaPhp } from 'react-icons/fa';
+import { SiExpress, SiTailwindcss, SiTypescript, SiFlutter, SiNextdotjs, SiSupabase, SiElectron } from 'react-icons/si';
 
 export default function About() {
   return (
@@ -27,7 +27,6 @@ export default function About() {
           About <span className="text-blue-500">Me</span>
         </motion.h2>
 
-        {/* Visible bio — clean & professional */}
         <motion.p
           className="text-gray-300 max-w-2xl mx-auto text-lg mb-10 leading-relaxed"
           initial={{ opacity: 0 }}
@@ -42,8 +41,9 @@ export default function About() {
         {/* Hidden SEO — Google reads, user can't see */}
         <span style={{ position: 'absolute', width: '1px', height: '1px', overflow: 'hidden', opacity: 0, pointerEvents: 'none' }}>
           Praveen Kumar Singh known as WebDevPraveen and praveenksingh, developer at SRMU Lucknow (Praveen SRMU).
-          Open-source contributor Linux Kernel, Facebook Docusaurus, NVIDIA NeMo. GSoC 2026 aspirant.
-          Built Ping2Bro, gitpersonality.com, LedgerAttend. SIH 2025 participant at SRMU.
+          Open-source contributor Linux Kernel, Docusaurus, NVIDIA NeMo, OpenClaw. 900+ GitHub contributions.
+          Full-stack developer specializing in Next.js, React, TypeScript, Supabase, Node.js, PHP, Electron.
+          Freelance web developer Lucknow India. SIH 2025 participant at SRMU.
         </span>
 
         <motion.h2
@@ -62,22 +62,28 @@ export default function About() {
           transition={{ delay: 0.5, duration: 0.6 }}
         >
           <div className="flex flex-col items-center">
+            <SiNextdotjs className="text-4xl text-white mb-2" /><p>Next.js</p>
+          </div>
+          <div className="flex flex-col items-center">
             <FaReact className="text-4xl text-blue-400 mb-2" /><p>React</p>
           </div>
           <div className="flex flex-col items-center">
             <SiTypescript className="text-4xl text-blue-500 mb-2" /><p>TypeScript</p>
           </div>
           <div className="flex flex-col items-center">
+            <SiSupabase className="text-4xl text-green-400 mb-2" /><p>Supabase</p>
+          </div>
+          <div className="flex flex-col items-center">
             <FaNodeJs className="text-4xl text-green-500 mb-2" /><p>Node.js</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiFirebase className="text-4xl text-yellow-400 mb-2" /><p>Firebase</p>
+            <FaPhp className="text-4xl text-indigo-400 mb-2" /><p>PHP</p>
+          </div>
+          <div className="flex flex-col items-center">
+            <SiElectron className="text-4xl text-cyan-400 mb-2" /><p>Electron</p>
           </div>
           <div className="flex flex-col items-center">
             <SiFlutter className="text-4xl text-blue-300 mb-2" /><p>Flutter</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <SiNextdotjs className="text-4xl text-white mb-2" /><p>Next.js</p>
           </div>
           <div className="flex flex-col items-center">
             <FaJsSquare className="text-4xl text-yellow-400 mb-2" /><p>JavaScript</p>
@@ -86,13 +92,7 @@ export default function About() {
             <SiTailwindcss className="text-4xl text-cyan-400 mb-2" /><p>Tailwind CSS</p>
           </div>
           <div className="flex flex-col items-center">
-            <SiMongodb className="text-4xl text-green-400 mb-2" /><p>MongoDB</p>
-          </div>
-          <div className="flex flex-col items-center">
             <SiExpress className="text-4xl text-gray-300 mb-2" /><p>Express</p>
-          </div>
-          <div className="flex flex-col items-center">
-            <SiPython className="text-4xl text-yellow-300 mb-2" /><p>Python</p>
           </div>
           <div className="flex flex-col items-center">
             <FaGithub className="text-4xl text-white mb-2" /><p>Open Source</p>
