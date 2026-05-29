@@ -22,7 +22,6 @@ export default function Home() {
                 id="home"
                 className="relative min-h-screen w-full flex items-center justify-center bg-black text-white px-4 overflow-hidden"
             >
-                {/* Pulse Stars */}
                 <Particles
                     id="pulseStars"
                     init={particlesInit}
@@ -45,7 +44,6 @@ export default function Home() {
                     className="absolute inset-0 z-0"
                 />
 
-                {/* Shooting Stars */}
                 <Particles
                     id="shootingStars"
                     init={particlesInit}
@@ -72,7 +70,6 @@ export default function Home() {
                     className="absolute inset-0 z-0"
                 />
 
-                {/* Main Content */}
                 <div className="relative z-10 max-w-5xl w-full mx-auto text-center">
                     <motion.h1
                         className="text-4xl md:text-6xl font-bold mb-4"
@@ -92,8 +89,9 @@ export default function Home() {
                         <Typewriter
                             words={[
                                 'WebDevPraveen — BCA Student at SRMU',
-                                'Open Source Contributor & GSoC 2026 Aspirant',
-                                'Full-Stack Developer (React · Firebase · Flutter)',
+                                'Full-Stack Dev · Next.js · React · TypeScript',
+                                'Open Source Contributor — Linux Kernel · NVIDIA NeMo',
+                                'Supabase · Node.js · PHP · Electron · Flutter',
                                 'A Crazy Nerdy Kid from Lucknow',
                             ]}
                             loop={0}
